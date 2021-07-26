@@ -47,7 +47,7 @@
       ]
     },
     {
-      "owner": "elixir-credoCheckWarnings",
+      "owner": "elixir-credoOutputDefault",
       "severity": "warning",
       "pattern": [
         {
@@ -67,7 +67,14 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^(.*):(\\d+):\\s(.*)"
+          "regexp": "^(.*):(\\d+):(.*)",
+          "file": 1,
+          "line": 2,
+          "code": 3
+        },
+        {
+          "regexp": "^(.*)$",
+          "message": 1
         }
       ]
     }
