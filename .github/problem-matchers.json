@@ -18,7 +18,8 @@
       "pattern": [
         {
           "regexp": "^warning: (.*)$",
-          "message": 1
+          "message": 1,
+          "code": 2
         },
         {
           "regexp": "^  (.*):(\\d+).*$",
@@ -41,8 +42,7 @@
         },
         {
           "regexp": "^\\s+(.*)$",
-          "message": 1,
-          "loop": true
+          "message": 1
         }
       ]
     },

@@ -17,8 +17,8 @@ jobs:
       - name: Setup
         uses: erlef/setup-beam@v1
         with:
-          otp-version: '22.2'
-          elixir-version: '1.9.4'
+          otp-version: '23'
+          elixir-version: '1.12.0-rc.1'
 
       - name: Dependencies
         run: mix deps.get
@@ -41,8 +41,8 @@ jobs:
       - name: Setup
         uses: erlef/setup-beam@v1
         with:
-          otp-version: '22.2'
-          elixir-version: '1.9.4'
+          otp-version: '23'
+          elixir-version: '1.12.0-rc.1'
 
       - name: Dependencies
         run: mix deps.get
@@ -65,8 +65,8 @@ jobs:
       - name: Setup
         uses: erlef/setup-beam@v1
         with:
-          otp-version: '22.2'
-          elixir-version: '1.9.4'
+          otp-version: '23'
+          elixir-version: '1.12.0-rc.1'
 
       - name: Dependencies
         run: mix deps.get
@@ -89,8 +89,8 @@ jobs:
       - name: Setup
         uses: erlef/setup-beam@v1
         with:
-          otp-version: '22.2'
-          elixir-version: '1.9.4'
+          otp-version: '23'
+          elixir-version: '1.12.0-rc.1'
 
       - name: Dependencies
         run: mix deps.get
