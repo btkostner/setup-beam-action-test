@@ -51,7 +51,7 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^┃\\s\[\\w\]\\s→\\s(.*)$",
+          "regexp": "^\u2503\\s\\[\\w\\]\\s[\u2191|\u2197|\u2192|\u2198|\u2193]\\s(.*)$",
           "message": 1
         },
         {

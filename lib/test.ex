@@ -12,8 +12,9 @@ defmodule Test do
       :world
 
   """
-  def hello do
+  def hello  do
     case "hello" do
+      "world" -> 0
       "world" -> 0
       "world" -> 0
       "world" -> 0
