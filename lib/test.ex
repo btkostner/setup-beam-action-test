@@ -40,8 +40,6 @@ defmodule Test do
       "world" -> 0
       "world" -> 0
       "world" -> 0
-      "world" -> 0
-      "world" -> 0
       "hello" -> "hello"
     end
   end

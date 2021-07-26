@@ -52,7 +52,7 @@
       "pattern": [
         {
           "regexp": "^┃\\s\\[\\w\\]\\s→\\s(.*)$",
-          "message" 1
+          "message": 1
         },
         {
           "regexp": "^┃\\s{7}(.*):(\\d+):(\\d+)\\s.*$",
