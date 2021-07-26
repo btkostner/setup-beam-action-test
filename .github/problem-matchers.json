@@ -19,7 +19,7 @@
         {
           "regexp": "^warning: (.*)$",
           "message": 1,
-          "code": 2
+          "code": 1
         },
         {
           "regexp": "^  (.*):(\\d+).*$",
