@@ -23,6 +23,10 @@ jobs:
       - name: Dependencies
         run: mix deps.get
 
+      - name: Problem Matcher
+        run: >
+          echo "::add-matcher::.github/problem-matchers.json"
+
       - name: Format
         run: mix format --check-formatted
 
@@ -42,6 +46,10 @@ jobs:
 
       - name: Dependencies
         run: mix deps.get
+
+      - name: Problem Matcher
+        run: >
+          echo "::add-matcher::.github/problem-matchers.json"
 
       - name: Test
         run: mix test
