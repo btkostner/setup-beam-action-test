@@ -4,7 +4,7 @@ defmodule TestTest do
 
   test "greets the world" do
     out = Logfmt.encode(foo: "bar")
-    assert out == "foo=test"
+    assert out == "foo=asdf"
   end
 
   test "ensures ssl" do
