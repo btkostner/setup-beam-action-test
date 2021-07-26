@@ -61,6 +61,15 @@
           "column": 3
         }
       ]
+    },
+    {
+      "owner": "elixir-dialyzer",
+      "severity": "warning",
+      "pattern": [
+        {
+          "regexp": "^(.*):(\\d+):\\s(.*)"
+        }
+      ]
     }
   ]
 }
