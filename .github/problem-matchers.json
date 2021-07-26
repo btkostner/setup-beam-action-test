@@ -51,13 +51,14 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^┃\\s\\[\\w\\]\\s→\\s(.*)$",
+          "regexp": "^┃\\s\[\\w\]\\s→\\s(.*)$",
           "message": 1
         },
         {
           "regexp": "^┃\\s{7}(.*):(\\d+):(\\d+)\\s.*$",
           "file": 1,
-          "line": 2
+          "line": 2,
+          "column": 3
         }
       ]
     }
