@@ -12,7 +12,6 @@ defmodule Test do
       :world
 
   """
-  @spec hello(nil) :: Version.t()
   def hello (arg) do
     case arg do
       "world" -> 0
