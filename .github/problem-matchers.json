@@ -32,16 +32,13 @@
       "severity": "error",
       "pattern": [
         {
-          "regexp": "^\\s*\\d+\\) (.*)$"
+          "regexp": "^\\s*\\d+\\) (.*)$",
+          "message": 1
         },
         {
           "regexp": "^\\s*(.*):(\\d+)$",
           "file": 1,
           "line": 2
-        },
-        {
-          "regexp": "^\\s+(.*)$",
-          "message": 1
         }
       ]
     },
