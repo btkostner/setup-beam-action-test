@@ -75,6 +75,12 @@ jobs:
         run: >
           echo "::add-matcher::.github/problem-matchers.json"
 
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: priv/plts
+          key: ${{ runner.os }}-${{ hashFiles('**/mix.lock') }}
+
       - name: Dialyzer
         run: mix dialyzer
 
