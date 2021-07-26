@@ -45,6 +45,22 @@
           "loop": true
         }
       ]
+    },
+    {
+      "owner": "elixir-credoCheckWarnings",
+      "severity": "warning",
+      "pattern": [
+        {
+          "regexp": "^┃\s\[\w\]\s→\s(.*)$",
+          "message" 1
+        },
+        {
+          "regexp": "^┃\\s{7}(.*):(\\d+):(\\d+)\s.*$",
+          "file": 1,
+          "line": 2,
+          "loop": true
+        }
+      ]
     }
   ]
 }
