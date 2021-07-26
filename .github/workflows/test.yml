@@ -26,22 +26,22 @@ jobs:
       - name: Format
         run: mix format --check-formatted
 
-    test:
-      name: Test
-      runs-on: ubuntu-latest
+  test:
+    name: Test
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v2
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-        - name: Setup
-          uses: erlef/setup-beam@v1
-          with:
-            otp-version: '22.2'
-            elixir-version: '1.9.4'
+      - name: Setup
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: '22.2'
+          elixir-version: '1.9.4'
 
-        - name: Dependencies
-          run: mix deps.get
+      - name: Dependencies
+        run: mix deps.get
 
-        - name: Test
-          run: mix test
+      - name: Test
+        run: mix test
