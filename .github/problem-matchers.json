@@ -18,8 +18,7 @@
       "pattern": [
         {
           "regexp": "^warning: (.*)$",
-          "message": 1,
-          "code": 1
+          "message": 1
         },
         {
           "regexp": "^  (.*):(\\d+).*$",
@@ -51,8 +50,9 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^\u2503\\s\\[\\w\\]\\s[\u2191|\u2197|\u2192|\u2198|\u2193]\\s(.*)$",
-          "message": 1
+          "regexp": "^\u2503\\s\\[(\\w)\\]\\s[\u2191|\u2197|\u2192|\u2198|\u2193]\\s(.*)$",
+          "severity": 1,
+          "message": 2
         },
         {
           "regexp": "^┃\\s{7}(.*):(\\d+):(\\d+)\\s.*$",
