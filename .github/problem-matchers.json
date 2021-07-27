@@ -52,7 +52,7 @@
           "message": 2
         },
         {
-          "regexp": "^┃\\s{7}(.*):(\\d+):(\\d+)\\s.*$",
+          "regexp": "^\u2503\\s{7}(.*):(\\d+):(\\d+)\\s.*$",
           "file": 1,
           "line": 2,
           "column": 3
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "owner": "elixir-dialyzer",
+      "owner": "elixir-dialyzerOutputDefault",
       "severity": "warning",
       "pattern": [
         {
