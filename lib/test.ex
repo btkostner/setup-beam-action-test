@@ -20,6 +20,7 @@ defmodule Test do
   def hello (arg) do
     IO.inspect("test", label: "credo warning")
 
+
     unless true do
       "test"
     else
